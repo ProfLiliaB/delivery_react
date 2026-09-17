@@ -23,11 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-/data
-/contexts
-/componetes/ModalCarrinho.jsx
-/routes
-/test
+data/
+contexts/
+componetes/ModalCarrinho.jsx
+/routes/
+test/
 
 *.pdf
 AppProvider.jsx
