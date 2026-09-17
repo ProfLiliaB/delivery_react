@@ -26,7 +26,7 @@ dist-ssr
 data/
 contexts/
 componetes/ModalCarrinho.jsx
-/routes/
+routes/
 test/
 
 *.pdf
