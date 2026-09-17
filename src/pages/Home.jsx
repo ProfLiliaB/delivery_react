@@ -16,7 +16,6 @@ function Home() {
             <Header
                 nomeLoja="Sabor da Casa"
                 quantidadeCarrinho={carrinho.length}
-                // aoAbrirCarrinho={() => alert('Carrinho vazio')}
                 aoAbrirCarrinho={() => setCarrinhoAberto(true)}
             />
             
@@ -27,7 +26,6 @@ function Home() {
                 />
             )} 
            
-
             {carregando && <Spinner tamanho={32} />}
 
             {erro && <div>{erro}</div>}

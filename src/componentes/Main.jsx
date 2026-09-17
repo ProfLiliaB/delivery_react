@@ -4,7 +4,6 @@ import Produto from './Produto';
 // import { CarrinhoProvider } from '../contexts/CarrinhoProvider';
 
 function Main({ produtos, aoAdicionar }) {
-    // Conectando ao contexto para pegar os produtos e a ação
     //const { listaProdutos, adicionarAoCarrinho } = useContext(CarrinhoContext);
 
     return (
@@ -13,7 +12,7 @@ function Main({ produtos, aoAdicionar }) {
             <section className="vitrine">
                 {produtos.map(produto => (
                     <Produto
-                        key={produto.id} // Obrigatório no React para listas
+                        key={produto.id} 
                         id={produto.id}
                         nome={produto.nome}
                         preco={produto.preco}

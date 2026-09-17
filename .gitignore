@@ -28,6 +28,6 @@ contexts/
 componetes/ModalCarrinho.jsx
 routes/
 test/
-
+.env
 *.pdf
 AppProvider.jsx
